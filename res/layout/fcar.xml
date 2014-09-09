@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/TabHost01" android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+             <!-- <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" > -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
+                <Button android:textSize="20dip" android:textColor="@color/blue" android:id="@+id/adyp_fisheries_bt" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="附近" android:layout_weight="1.0" android:textAlignment="4" />
+                <Button android:textSize="20dip" android:textColor="@color/weibo_text_name" android:id="@+id/adyp_shows_bt" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="车辆检测" android:layout_weight="1.0" android:textAlignment="4" />
+                <Button android:textSize="20dip" android:textColor="@color/avatar_border" android:id="@+id/adyp_wiki_bt" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="车系" android:layout_weight="1.0" android:textAlignment="4" />
+            </LinearLayout>
+	<LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
+                <Button android:textSize="20dip" android:textColor="@color/blue" android:id="@+id/adyp_fisheries_bt" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="全国" android:layout_weight="1.0" android:textAlignment="4" />
+                <Button android:textSize="20dip" android:textColor="@color/weibo_text_name" android:id="@+id/adyp_shows_bt" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="本地" android:layout_weight="1.0" android:textAlignment="4" />
+            </LinearLayout>
+            <ListView
+        android:id="@android:id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+    </ListView>
+
+           </LinearLayout>
+
+            <include android:id="@+id/adyp_bottom_bar"
+                 android:layout_width="fill_parent"
+                  android:layout_height="65.0dip"
+                   android:layout_alignParentBottom="true"
+                   layout="@layout/main_page_bottom_bar" />
+            <!-- The navigation drawer
+            <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#111"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp" />
+    </android.support.v4.widget.DrawerLayout> -->
+
+
+    </RelativeLayout>

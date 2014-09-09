@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+                android:text="@string/server_ip"
+                />
+        <EditText
+                android:id="@+id/serverip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:scrollHorizontally="true"
+        android:autoText="false"
+        android:capitalize="none"
+        android:gravity="fill_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+        <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+                android:text="@string/server_port" />
+
+        <EditText android:id="@+id/serverport"
+        android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:scrollHorizontally="true"
+        android:autoText="false"
+        android:capitalize="none"
+        android:gravity="fill_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RelativeLayout android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+        <Button android:id="@+id/ok_button"
+                  android:text="@string/ok_button"
+                  android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <Button android:id="@+id/back_button"
+                  android:text="@string/back_button"
+                  android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_toLeftOf="@id/ok_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+</LinearLayout>

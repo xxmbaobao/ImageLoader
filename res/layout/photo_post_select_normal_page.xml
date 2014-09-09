@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarThumbVertical="@drawable/scrollbar" android:scrollbarStyle="insideOverlay" android:id="@+id/photo_post_select_normal_page" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+       <FrameLayout android:id="@+id/top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/top" />
+        </FrameLayout>
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:paddingLeft="15.0dip"
+           android:paddingRight="15.0dip"
+           android:orientation="horizontal"
+           android:background="@drawable/qz_selector_settingitem_head">
+           <EditText
+               android:id="@+id/edit"
+               android:layout_width="fill_parent"
+               android:layout_height="200dp"
+               android:hint="@string/add_photo_description"/>
+       </LinearLayout>
+        <FrameLayout android:id="@+id/photo_post_select_album_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <include layout="@layout/photo_post_select_album_bar" />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/photo_post_select_quality_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+            <include layout="@layout/photo_post_select_quality_setting" />
+        </FrameLayout>
+        <RelativeLayout android:gravity="center" android:id="@+id/tab_lbs" android:background="@drawable/qz_bg_lbs_normal" android:paddingLeft="10.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="43.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="15.0dip">
+            <ImageView android:id="@+id/image_lbs" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/qz_icon_locate_normal" />
+            <TextView android:textColor="@color/color_hint" android:id="@+id/lbs_poi_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="显示所在位置" android:singleLine="true" android:layout_toRightOf="@id/image_lbs" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <FrameLayout android:id="@+id/photo_post_select_grid_frame" android:layout_width="fill_parent" android:layout_height="400dp" android:layout_marginTop="0.0dip">
+            <GridView android:scrollbarThumbVertical="@drawable/scrollbar" android:numColumns="4" android:scrollbarStyle="insideOverlay" android:gravity="center" android:id="@+id/noScrollgridview"  android:padding="10.0dip" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent"  android:horizontalSpacing="4.0dip" android:verticalSpacing="4.0dip"/>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

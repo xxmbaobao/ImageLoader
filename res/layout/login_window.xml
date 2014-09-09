@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+                android:text="@string/user_name"
+                />
+        <EditText
+                android:id="@+id/username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:scrollHorizontally="true"
+        android:autoText="false"
+        android:text="user"
+        android:capitalize="none"
+        android:gravity="fill_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+        <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+                android:text="@string/user_passwd" />
+
+        <EditText android:id="@+id/userpasswd"
+        android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:scrollHorizontally="true"
+        android:autoText="false"
+        android:text="user"
+        android:capitalize="none"
+        android:gravity="fill_horizontal"
+        android:password="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <CheckBox android:id="@+id/cbx_cmwap"
+                  android:text="CMWAP"
+                  android:checked="false"
+                  android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <RelativeLayout android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+        <Button android:id="@+id/login_button"
+                  android:text="LOGIN"
+                  android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <Button android:id="@+id/exit_button"
+                  android:text="EXIT"
+                  android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_toLeftOf="@id/login_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+</LinearLayout>

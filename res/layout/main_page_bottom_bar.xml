@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  >
+    <RelativeLayout
+         android:background="@drawable/bottom_bar" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true" android:contentDescription="@string/app_name">
+        <Button android:id="@+id/mpbb_tab_bt" android:background="@drawable/button_tab" android:layout_width="46.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <Button android:id="@+id/mpbb_personal_bt" android:background="@drawable/button_personal" android:layout_width="46.0dip" android:layout_height="50.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/mpbb_new_msg_iv" android:visibility="invisible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="-5.0dip" android:layout_marginRight="0.0dip" android:src="@drawable/red_point" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+    <Button android:id="@+id/mpbb_camera_bt" android:background="@drawable/my_camera" android:layout_width="71.0dip" android:layout_height="65.0dip" android:layout_centerInParent="true" />
+</RelativeLayout>

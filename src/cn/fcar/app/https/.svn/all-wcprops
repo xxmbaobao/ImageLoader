@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/eoecn/android-app/!svn/ver/69/trunk/source/src/cn/eoe/app/https
+END
+HttpUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/eoecn/android-app/!svn/ver/69/trunk/source/src/cn/eoe/app/https/HttpUtils.java
+END
+APNManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/eoecn/android-app/!svn/ver/7/trunk/source/src/cn/eoe/app/https/APNManager.java
+END
+CustomHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/eoecn/android-app/!svn/ver/69/trunk/source/src/cn/eoe/app/https/CustomHttpClient.java
+END
+NetWorkHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/eoecn/android-app/!svn/ver/69/trunk/source/src/cn/eoe/app/https/NetWorkHelper.java
+END
+CustomHttpURLConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/eoecn/android-app/!svn/ver/7/trunk/source/src/cn/eoe/app/https/CustomHttpURLConnection.java
+END
+APN.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/eoecn/android-app/!svn/ver/7/trunk/source/src/cn/eoe/app/https/APN.java
+END

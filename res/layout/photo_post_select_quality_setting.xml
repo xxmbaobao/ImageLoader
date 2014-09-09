@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/photo_post_select_quality_bar" android:background="@drawable/qz_selector_settingitem_tail" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="42.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/color_title" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/upload_hd_picture" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <CheckBox android:id="@+id/photo_post_select_quality_check" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:button="@null" android:drawableLeft="@drawable/qz_selector_common_checkbox" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>
