@@ -1,4 +1,5 @@
 ImageLoader
 ===========
 
-View picture and up load picture and text
+View picture and upload picture and text
+
